@@ -1,0 +1,9 @@
+@page {
+    margin-left: 3cm;
+}
+div .nav { color: red; }
+#titulo1 { color:rgb(255, 115, 0); }
+p::selection {
+    color: green;
+    background-color: orangered;
+}
