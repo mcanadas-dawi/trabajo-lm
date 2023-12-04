@@ -1,5 +1,5 @@
 @page {
-    margin-left: 3cm;
+    margin-left: 30px;
 }
 div .nav { color: red; }
 #titulo1 { color:rgb(255, 115, 0); }
@@ -7,3 +7,25 @@ p::selection {
     color: green;
     background-color: orangered;
 }
+header {
+    background-color:blue;
+    display: flex;
+    justify-content: center;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: nowrap;
+}
+section {
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.estrella{
+    color:yellow;
+}
+   
