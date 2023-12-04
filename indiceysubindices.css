@@ -28,4 +28,10 @@ section {
 .estrella{
     color:yellow;
 }
-   
+p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: nowrap;
+}
