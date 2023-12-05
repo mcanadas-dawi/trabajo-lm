@@ -1,6 +1,8 @@
 @page {
     margin-left: 30px;
+    
 }
+
 div .nav { color: red; }
 #titulo1 { color:rgb(255, 115, 0); }
 p::selection {
@@ -34,4 +36,26 @@ p{
     align-items: center;
     justify-content:space-around;
     flex-wrap: nowrap;
+}
+
+.boton1{
+    text-decoration:none;
+font-weight:600;
+font-size:20px;
+color:#ffffff;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:150px;
+padding-right:150px;
+background-color:#FFD27D;
+border-radius:35px;
+}
+h1{
+    color:orange
+}
+h2{
+    color:rgb(244, 220, 7)
+}
+h3{
+    color:rgb(0, 255, 140)
 }
