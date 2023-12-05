@@ -9,11 +9,15 @@ p::selection {
     color: green;
     background-color: orangered;
 }
+body{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
 header {
     background-color:blue;
     display: flex;
     justify-content: center;
-    
 }
 nav{
     display: flex;
@@ -24,20 +28,16 @@ nav{
 }
 section {
     display:flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
     flex-wrap: wrap;
 }
+.texto-miniatura{
+    display: flex;
+    justify-content: space-evenly;
+  } 
 .estrella{
     color:yellow;
 }
-p{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:space-around;
-    flex-wrap: nowrap;
-}
-
 .boton1{
     text-decoration:none;
 font-weight:600;
@@ -59,3 +59,16 @@ h2{
 h3{
     color:rgb(0, 255, 140)
 }
+.foto-miniatura{
+    width: 400px;
+    height: fit-content;
+}
+footer{
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.licencia{
+    height:22px!important;
+  }

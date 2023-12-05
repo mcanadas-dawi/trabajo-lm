@@ -1,62 +1,125 @@
 @page {
-    margin-left: 30px;
+  margin-left: 30px;
 }
-div .nav { color: red; }
-#titulo1 { color:rgb(255, 115, 0); }
+
+div .nav {
+  color: red;
+}
+
+#titulo1 {
+  color: rgb(255, 115, 0);
+}
+
 p::selection {
-    color: green;
-    background-color: orangered;
+  color: green;
+  background-color: orangered;
 }
+
 header {
-    background-color:blue;
-    display: flex;
-    justify-content: center;
-    
+  background-color: blue;
+  display: flex;
+  justify-content: center;
 }
-nav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:space-around;
-    margin:auto;
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  margin-bottom: 15px;
 }
-.estrella{
-    color:yellow;
+
+.boton1 {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 90px;
+  padding-right: 90px;
+  background-color: #FFD27D;
+  border-radius: 35px;
 }
-section{
-  display:flex;
+
+body {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.estrella {
+  color: yellow;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
   align-content: space-between;
-} 
-.fotos-secundarias{
-  display: block;
-  align-content: space-between;
 }
+
+.fotos-secundarias {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 article {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+
 }
-footer{
+
+footer {
   background-color: green;
   display: flex;
-  align-items:flex-start;
+  justify-content: space-between;
+  align-items: center;
 }
-.datos-hotel{
+
+.datos-hotel {
   display: flex;
   flex-direction: row;
   text-align: center;
-  justify-content:center;
+  justify-content: center;
   align-items: flex-start;
-  
 }
-.foto-principal{
+
+.informacion-extendida {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info-del-lugar {
+  display: flex;
+  flex-direction: column;
+}
+
+.foto-principal {
   width: 500px;
+  height: fit-content;
 }
-.foto-secundaria{
+
+.foto-secundaria {
   width: 400px;
+  height: fit-content;
 }
-li{
-  text-align: left;;
+
+li {
+  text-align: left;
+  ;
 }
-.estrella{
-  color:yellow;
+
+.estrella {
+  color: yellow;
+}
+
+p {
+  max-width: 500px;
+}
+
+.licencia {
+  height: 22px !important;
+
 }
