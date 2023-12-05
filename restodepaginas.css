@@ -18,7 +18,7 @@ nav{
     flex-direction: row;
     align-items: center;
     justify-content:space-around;
-    flex-wrap: nowrap;
+    margin:auto;
 }
 .estrella{
     color:yellow;
@@ -31,32 +31,33 @@ p{
     height: 100%;
 }
 section{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    width: 100%;
-    height: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-content:space-evenly;
+  -ms-flex-item-align: auto;
 } 
-  .datos-hotel{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content:center;
-    align-items: flex-start;
-    
-  }
-  .fotos-secundarias{
-
-    width: 50%;
-    height: 50%;
-  }
-  .ubicacion-gps{
-    display: block;
-    align-items: flex-start;
-    justify-content:center
-  }
-  .informacion-extendida{
-    display: block;
-    text-align: right;
-    justify-content:center
-  }
+article {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+footer{
+  
+}
+.datos-hotel{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content:center;
+  align-items: flex-start;
+  
+}
+.foto-principal{
+  width: 500px;
+}
+.foto-secundaria{
+  width: 400px;
+}
+li{
+  text-align: left;;
+}
