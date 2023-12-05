@@ -1,0 +1,62 @@
+@page {
+    margin-left: 30px;
+}
+div .nav { color: red; }
+#titulo1 { color:rgb(255, 115, 0); }
+p::selection {
+    color: green;
+    background-color: orangered;
+}
+header {
+    background-color:blue;
+    display: flex;
+    justify-content: center;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: nowrap;
+}
+.estrella{
+    color:yellow;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 100%;
+    height: 50%;
+} 
+  .datos-hotel{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content:center;
+    align-items: flex-start;
+    
+  }
+  .fotos-secundarias{
+
+    width: 50%;
+    height: 50%;
+  }
+  .ubicacion-gps{
+    display: block;
+    align-items: flex-start;
+    justify-content:center
+  }
+  .informacion-extendida{
+    display: block;
+    text-align: right;
+    justify-content:center
+  }
