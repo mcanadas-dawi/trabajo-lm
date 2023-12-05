@@ -23,26 +23,22 @@ nav{
 .estrella{
     color:yellow;
 }
-p{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    height: 100%;
-}
 section{
-  display: flex;
-  justify-content: flex-start;
-  align-content:space-evenly;
-  -ms-flex-item-align: auto;
+  display:flex;
+  align-content: space-between;
 } 
+.fotos-secundarias{
+  display: block;
+  align-content: space-between;
+}
 article {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
 }
 footer{
-  
+  background-color: green;
+  display: flex;
+  align-items:flex-start;
 }
 .datos-hotel{
   display: flex;
