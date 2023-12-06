@@ -2,10 +2,6 @@
   margin-left: 30px;
 }
 
-div .nav {
-  color: red;
-}
-
 #titulo1 {
   color: rgb(255, 115, 0);
 }
@@ -56,19 +52,21 @@ body {
 section {
   display: flex;
   flex-direction: row;
-  align-content: space-between;
+  align-content: space-evenly;
 }
 
 .fotos-secundarias {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-between; 
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-between;
 }
 
 article {
   display: flex;
   justify-content: space-between;
-
 }
 
 footer {
@@ -76,6 +74,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 15px;
+  padding-left: 5px;
 }
 
 .datos-hotel {
@@ -99,11 +99,13 @@ footer {
 .foto-principal {
   width: 500px;
   height: fit-content;
+  border-radius:6px;
 }
 
 .foto-secundaria {
   width: 400px;
   height: fit-content;
+  border-radius:6px;
 }
 
 li {
@@ -122,4 +124,52 @@ p {
 .licencia {
   height: 22px !important;
 
+}
+.gps{
+  width:600px;
+  height:450px;
+  border:0;
+}
+@media screen and (max-width: 391px) and (max-height: 845px) {
+  section{
+    flex-wrap: wrap;
+  }
+  .boton1 {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #FFD27D;
+    border-radius: 35px;
+  }
+  nav {
+    flex-wrap: wrap;
+  }
+  section{
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+  }
+  article{
+    flex-wrap: wrap;
+  }
+  .gps{
+    width:350px;
+    height: 200px;
+    border:0;
+  }
+  .foto-principal{
+    width: 350px;
+    height: fit-content;
+    border-radius:6px;
+  }
+  .foto-secundaria {
+    width: 350px;
+    height: fit-content;
+    border-radius:6px;
+  }
 }
