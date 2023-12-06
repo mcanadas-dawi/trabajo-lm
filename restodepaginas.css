@@ -135,16 +135,8 @@ p {
     flex-wrap: wrap;
   }
   .boton1 {
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 20px;
-    color: #ffffff;
-    padding-top: 15px;
-    padding-bottom: 15px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #FFD27D;
-    border-radius: 35px;
   }
   nav {
     flex-wrap: wrap;

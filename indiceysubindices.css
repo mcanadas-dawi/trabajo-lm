@@ -49,6 +49,18 @@ padding-right:150px;
 background-color:#FFD27D;
 border-radius:35px;
 }
+.boton2{
+    text-decoration:none;
+font-weight:600;
+font-size:20px;
+color:#0018cf;
+padding-top:1px;
+padding-bottom:1px;
+padding-left:10px;
+padding-right:10px;
+background-color:none;
+border-radius:35px;
+}
 h1{
     color:orange
 }
@@ -76,16 +88,8 @@ footer{
   }
   @media screen and (max-width: 391px) and (max-height: 845px) {
     .boton1 {
-      text-decoration: none;
-      font-weight: 600;
-      font-size: 20px;
-      color: #ffffff;
-      padding-top: 15px;
-      padding-bottom: 15px;
       padding-left: 30px;
       padding-right: 30px;
-      background-color: #FFD27D;
-      border-radius: 35px;
     }
     nav {
       flex-wrap: wrap;
