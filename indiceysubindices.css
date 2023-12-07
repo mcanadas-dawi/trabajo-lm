@@ -3,15 +3,14 @@
     
 }
 
-#titulo1 { color:rgb(255, 115, 0); }
-p::selection {
-    color: green;
-    background-color: orangered;
-}
 body{
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 10px;
+    background-image: url(https://images.unsplash.com/photo-1454117096348-e4abbeba002c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm9uZG8lMjBkZWwlMjBzaXRpbyUyMHdlYnxlbnwwfHwwfHx8MA%3D%3D);
+    background-size:cover;
+    background-attachment: fixed;
+    
   }
 header {
     background-color:blue;
@@ -41,19 +40,19 @@ section {
     text-decoration:none;
 font-weight:600;
 font-size:20px;
-color:#ffffff;
+color:rgb(230, 230, 227);
 padding-top:15px;
 padding-bottom:15px;
 padding-left:150px;
 padding-right:150px;
-background-color:#FFD27D;
+background-color:#0990eb;
 border-radius:35px;
 }
 .boton2{
     text-decoration:none;
 font-weight:600;
 font-size:20px;
-color:#0018cf;
+color:#0990eb;
 padding-top:1px;
 padding-bottom:1px;
 padding-left:10px;
@@ -62,13 +61,13 @@ background-color:none;
 border-radius:35px;
 }
 h1{
-    color:orange
+    color:rgb(230, 230, 227)
 }
 h2{
-    color:rgb(244, 220, 7)
+    color:rgb(4, 90, 37)
 }
 h3{
-    color:rgb(0, 255, 140)
+    color:rgb(49, 143, 112)
 }
 .foto-miniatura{
     width: 400px;
@@ -76,7 +75,7 @@ h3{
     border-radius:6px;
 }
 footer{
-    background-color: green;
+    background-color: rgb(4, 90, 37);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -100,3 +99,40 @@ footer{
         border-radius:6px;
     }
   }
+  table, tr, th, td{
+    text-align: left;
+    border: 1px solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: rgb(122, 119, 117);
+  }
+.Hotel{
+  color:#0018cf;
+}   
+.Apartamento{
+color: green
+}
+.Hostal{
+color: orange
+}
+.Agroturismo{
+color: rgb(138, 22, 22)
+}
+.Hotelrural{
+color: brown
+}
+.Calvia{
+    color: rgb(151, 33, 116)
+}
+.Palma{
+    color: rgb(13, 149, 228)
+}
+.Arenal{
+    color: rgb(42, 165, 93)
+}
+.Alcudia{
+    color: rgb(214, 177, 9)
+}
+.Calador{
+    color: rgb(219, 95, 12)
+}
