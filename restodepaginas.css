@@ -22,6 +22,11 @@ header {
   justify-content: center;
 }
 
+.logo-govern{
+  width: 100px;
+  height: 100px;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -35,12 +40,12 @@ nav {
   text-decoration: none;
   font-weight: 600;
   font-size: 20px;
-  color: #ffffff;
+  color:rgb(230, 230, 227);
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 90px;
   padding-right: 90px;
-  background-color: #FFD27D;
+  background-color:#0990eb;
   border-radius: 35px;
 }
 .boton2{
@@ -94,8 +99,8 @@ article {
   justify-content: space-between;
 }
 
-footer {
-  background-color: green;
+footer{
+  background-color: rgb(4, 90, 37);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -117,8 +122,7 @@ footer {
 }
 
 .info-del-lugar {
-  display: flex;
-  flex-direction: column;
+  display:block;
 }
 
 .foto-principal {
@@ -145,7 +149,6 @@ li {
 p {
   max-width: 500px;
 }
-
 .licencia {
   height: 22px !important;
 

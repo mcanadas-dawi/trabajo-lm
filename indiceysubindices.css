@@ -17,6 +17,10 @@ header {
     display: flex;
     justify-content: center;
 }
+.logo-govern{
+    width: 100px;
+    height: 100px;
+}
 nav{
     display: flex;
     flex-direction: row;
@@ -84,28 +88,28 @@ footer{
   }
 .licencia{
     height:22px!important;
-  }
-  @media screen and (max-width: 391px) and (max-height: 845px) {
-    .boton1 {
-      padding-left: 30px;
-      padding-right: 30px;
-    }
-    nav {
-      flex-wrap: wrap;
-    }
-    .foto-miniatura{
-        width: 350px;
-        height: fit-content;
-        border-radius:6px;
-    }
-  }
-  table, tr, th, td{
-    text-align: left;
-    border: 1px solid;
-    border-color: black;
-    border-width: 1px;
-    background-color: rgb(122, 119, 117);
-  }
+}
+@media screen and (max-width: 391px) and (max-height: 845px) {
+.boton1 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+nav {
+    flex-wrap: wrap;
+}
+.foto-miniatura{
+    width: 350px;
+    height: fit-content;
+    border-radius:6px;
+}
+}
+table, tr, th, td{
+text-align: left;
+border: 1px solid;
+border-color: black;
+border-width: 1px;
+background-color: rgb(122, 119, 117);
+}
 .Hotel{
   color:#0018cf;
 }   
