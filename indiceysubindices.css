@@ -1,145 +1,185 @@
-@page {
-    margin-left: 30px;
-    
-}
-
-body{
+body {
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 10px;
     background-image: url(https://images.unsplash.com/photo-1454117096348-e4abbeba002c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm9uZG8lMjBkZWwlMjBzaXRpbyUyMHdlYnxlbnwwfHwwfHx8MA%3D%3D);
-    background-size:cover;
+    background-size: cover;
     background-attachment: fixed;
-    
-  }
+
+}
+
 header {
-    background-color:blue;
+    background-color: blue;
     display: flex;
     justify-content: center;
 }
-.logo-govern{
+
+.logo-govern {
     width: 100px;
     height: 100px;
 }
-nav{
+
+nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
     flex-wrap: nowrap;
 }
+
 section {
-    display:flex;
-    justify-content:space-evenly;
-    flex-wrap: wrap;
-}
-.texto-miniatura{
     display: flex;
     justify-content: space-evenly;
-  } 
-.estrella{
-    color:yellow;
+    flex-wrap: wrap;
 }
-.boton1{
-    text-decoration:none;
-font-weight:600;
-font-size:20px;
-color:rgb(230, 230, 227);
-padding-top:15px;
-padding-bottom:15px;
-padding-left:150px;
-padding-right:150px;
-background-color:#0990eb;
-border-radius:35px;
+
+.texto-miniatura {
+    display: flex;
+    justify-content: space-evenly;
 }
-.boton2{
-    text-decoration:none;
-font-weight:600;
-font-size:20px;
-color:#0990eb;
-padding-top:1px;
-padding-bottom:1px;
-padding-left:10px;
-padding-right:10px;
-background-color:none;
-border-radius:35px;
+
+.estrella {
+    color: yellow;
 }
+
+.boton1 {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(230, 230, 227);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #0990eb;
+    border-radius: 35px;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+}
+
+.boton1:hover {
+    background-color: #3e8e41
+}
+
+.boton1:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.boton2 {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #0990eb;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: none;
+    border-radius: 35px;
+}
+
 a {
     text-decoration: none;
-  }
-h1{
-    color:rgb(230, 230, 227)
 }
-h2{
-    color:rgb(4, 90, 37)
+
+h1 {
+    color: rgb(230, 230, 227)
 }
-h3{
-    color:rgb(49, 143, 112)
+
+h2 {
+    color: rgb(4, 90, 37)
 }
-.foto-miniatura{
+
+h3 {
+    color: rgb(49, 143, 112)
+}
+
+.foto-miniatura {
     width: 400px;
     height: fit-content;
-    border-radius:6px;
+    border-radius: 6px;
 }
-footer{
+
+footer {
     background-color: rgb(4, 90, 37);
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 15px;
     padding-left: 5px;
-  }
-.licencia{
-    height:22px!important;
 }
+
+.licencia {
+    height: 22px !important;
+}
+
+/* Para móviles */
 @media screen and (max-width: 391px) and (max-height: 845px) {
-.boton1 {
-    padding-left: 30px;
-    padding-right: 30px;
+    .boton1 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+    }
+
+    .foto-miniatura {
+        width: 350px;
+        height: fit-content;
+        border-radius: 6px;
+    }
 }
-nav {
-    flex-wrap: wrap;
+
+table,
+tr,
+th,
+td {
+    text-align: left;
+    border: 1px solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: rgb(122, 119, 117);
 }
-.foto-miniatura{
-    width: 350px;
-    height: fit-content;
-    border-radius:6px;
+
+.Hotel {
+    color: #0018cf;
 }
+
+.Apartamento {
+    color: green
 }
-table, tr, th, td{
-text-align: left;
-border: 1px solid;
-border-color: black;
-border-width: 1px;
-background-color: rgb(122, 119, 117);
+
+.Hostal {
+    color: orange
 }
-.Hotel{
-  color:#0018cf;
-}   
-.Apartamento{
-color: green
+
+.Agroturismo {
+    color: rgb(138, 22, 22)
 }
-.Hostal{
-color: orange
+
+.Hotelrural {
+    color: brown
 }
-.Agroturismo{
-color: rgb(138, 22, 22)
-}
-.Hotelrural{
-color: brown
-}
-.Calvia{
+
+.Calvia {
     color: rgb(151, 33, 116)
 }
-.Palma{
+
+.Palma {
     color: rgb(13, 149, 228)
 }
-.Arenal{
+
+.Arenal {
     color: rgb(42, 165, 93)
 }
-.Alcudia{
+
+.Alcudia {
     color: rgb(214, 177, 9)
 }
-.Calador{
+
+.Calador {
     color: rgb(219, 95, 12)
 }

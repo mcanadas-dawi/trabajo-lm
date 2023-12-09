@@ -48,6 +48,18 @@ nav {
   padding-right: 90px;
   background-color: #0990eb;
   border-radius: 35px;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+}
+
+.boton1:hover {
+  background-color: #3e8e41
+}
+
+.boton1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .boton2 {
@@ -62,9 +74,11 @@ nav {
   background-color: none;
   border-radius: 35px;
 }
+
 a {
   text-decoration: none;
 }
+
 h1 {
   color: rgb(230, 230, 227)
 }
@@ -155,10 +169,12 @@ li {
   flex-wrap: nowrap;
   color: yellow;
 }
+
 .llaves {
   display: flex;
   flex-wrap: nowrap;
 }
+
 p {
   max-width: 500px;
 }
@@ -174,6 +190,7 @@ p {
   border: 0;
 }
 
+/* Para móviles */
 @media screen and (max-width: 391px) and (max-height: 845px) {
   section {
     flex-wrap: wrap;
@@ -216,8 +233,9 @@ p {
     border-radius: 6px;
   }
 }
-div h2{
+
+div h2 {
   margin-left: 5px;
   margin-right: 5px;
-  
+
 }
