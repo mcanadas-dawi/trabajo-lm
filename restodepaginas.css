@@ -2,15 +2,16 @@
   margin-left: 30px;
 }
 
-body{
+body {
   margin-left: 30px;
   margin-right: 30px;
   margin-top: 10px;
   background-image: url(https://images.unsplash.com/photo-1454117096348-e4abbeba002c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm9uZG8lMjBkZWwlMjBzaXRpbyUyMHdlYnxlbnwwfHwwfHx8MA%3D%3D);
-  background-size:cover;
+  background-size: cover;
   background-attachment: fixed;
-  
+
 }
+
 p::selection {
   color: rgb(223, 129, 6);
   background-color: rgb(0, 4, 255);
@@ -22,7 +23,7 @@ header {
   justify-content: center;
 }
 
-.logo-govern{
+.logo-govern {
   width: 100px;
   height: 100px;
 }
@@ -40,35 +41,42 @@ nav {
   text-decoration: none;
   font-weight: 600;
   font-size: 20px;
-  color:rgb(230, 230, 227);
+  color: rgb(230, 230, 227);
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 90px;
   padding-right: 90px;
-  background-color:#0990eb;
+  background-color: #0990eb;
   border-radius: 35px;
 }
-.boton2{
-  text-decoration:none;
-font-weight:600;
-font-size:20px;
-color:#0990eb;
-padding-top:1px;
-padding-bottom:1px;
-padding-left:0px;
-padding-right:10px;
-background-color:none;
-border-radius:35px;
+
+.boton2 {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: #0990eb;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 0px;
+  padding-right: 10px;
+  background-color: none;
+  border-radius: 35px;
 }
-h1{
-  color:rgb(230, 230, 227)
+a {
+  text-decoration: none;
 }
-h2{
-  color:rgb(4, 90, 37)
+h1 {
+  color: rgb(230, 230, 227)
 }
-h3{
-  color:rgb(49, 143, 112)
+
+h2 {
+  color: rgb(4, 90, 37)
 }
+
+h3 {
+  color: rgb(49, 143, 112)
+}
+
 body {
   margin-left: 30px;
   margin-right: 30px;
@@ -88,7 +96,7 @@ section {
 .fotos-secundarias {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; 
+  justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   align-content: space-between;
@@ -99,7 +107,7 @@ article {
   justify-content: space-between;
 }
 
-footer{
+footer {
   background-color: rgb(4, 90, 37);
   display: flex;
   justify-content: space-between;
@@ -122,19 +130,19 @@ footer{
 }
 
 .info-del-lugar {
-  display:block;
+  display: block;
 }
 
 .foto-principal {
   width: 500px;
   height: fit-content;
-  border-radius:6px;
+  border-radius: 6px;
 }
 
 .foto-secundaria {
   width: 400px;
   height: fit-content;
-  border-radius:6px;
+  border-radius: 6px;
 }
 
 li {
@@ -149,47 +157,57 @@ li {
 p {
   max-width: 500px;
 }
+
 .licencia {
   height: 22px !important;
 
 }
-.gps{
-  width:600px;
-  height:450px;
-  border:0;
+
+.gps {
+  width: 600px;
+  height: 450px;
+  border: 0;
 }
+
 @media screen and (max-width: 391px) and (max-height: 845px) {
-  section{
+  section {
     flex-wrap: wrap;
   }
+
   .boton1 {
     padding-left: 30px;
     padding-right: 30px;
   }
+
   nav {
     flex-wrap: wrap;
   }
-  section{
+
+  section {
     justify-content: center;
     align-items: center;
     align-content: space-between;
   }
-  article{
+
+  article {
     flex-wrap: wrap;
   }
-  .gps{
-    width:350px;
+
+  .gps {
+    width: 350px;
     height: 200px;
-    border:0;
+    border: 0;
   }
-  .foto-principal{
+
+  .foto-principal {
     width: 350px;
     height: fit-content;
-    border-radius:6px;
+    border-radius: 6px;
   }
+
   .foto-secundaria {
     width: 350px;
     height: fit-content;
-    border-radius:6px;
+    border-radius: 6px;
   }
 }
