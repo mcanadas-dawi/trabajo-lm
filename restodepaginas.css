@@ -143,9 +143,14 @@ li {
 }
 
 .estrella {
+  display: flex;
+  flex-wrap: nowrap;
   color: yellow;
 }
-
+.llaves {
+  display: flex;
+  flex-wrap: nowrap;
+}
 p {
   max-width: 500px;
 }
@@ -192,4 +197,9 @@ p {
     height: fit-content;
     border-radius:6px;
   }
+}
+div h2{
+  margin-left: 5px;
+  margin-right: 5px;
+  
 }
